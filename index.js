@@ -69,7 +69,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('server running')
+    res.send('travel world server running')
 });
 
 app.listen(port, () => {
